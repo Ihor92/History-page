@@ -1,0 +1,151 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	.quote {
+		padding-left: 77px;
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.title {
+		font-size: 45px;
+		margin: 55px auto;
+		padding-top: 70px;
+	}
+
+	.title_1 {
+		font-size: 28px;
+	}
+
+	.preface {
+		font-size: 12px;
+	}
+
+	.quote {
+		max-width: 500px;
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 815px) {
+	.title {
+		font-size: 37px;
+		margin: 45px auto;
+		padding-top: 60px;
+	}
+
+	.title_1 {
+		font-size: 25px;
+	}
+
+	.block_1 {
+		margin: 0 35px 13px;
+	}
+
+	.paragraph {
+		font-size: 20px;
+	}
+
+	.list {
+		font-size: 13px;
+	}
+
+	.block_2 {
+		margin: 0 auto;
+	}
+
+	.quote {
+		padding: 0;
+		margin: 0 auto;
+	}
+
+	p span {
+		font-size: 16px;
+		line-height: 1.8;
+		font-weight: bold;
+	}
+
+	.quote {
+		max-width: 400px;
+	}
+
+	.end {
+		font-size: 17px;
+		font-weight: bold;
+	}
+}
+
+
+@media only screen and (max-width : 670px) {
+	.title {
+		font-size: 30px;
+		margin: 35px auto;
+		padding-top: 40px;
+	}
+
+	.title_1 {
+		font-size: 22px;
+	}
+
+	.block_1 {
+		margin: 0 25px 13px;
+		padding:  0 1px;
+	}
+
+	.preface {
+		font-size: 12px;
+	}
+}
+
+@media only screen and (max-width : 540px) {
+	.title {
+		font-size: 20px;
+		margin: 25px auto;
+		padding-top: 35px;
+	}
+
+	.title_1 {
+	font-size: 17px;
+	}
+
+	.block_1 {
+		margin: 0 10px 13px;
+	}
+
+	.quote {
+		padding: 0 10px;
+	}
+
+	.preface {
+		font-size: 11px;
+	}
+
+	.paragraph {
+		font-size: 16px;
+		font-weight: bold;
+		padding: 0 10px;
+	}
+
+	.list {
+		padding: 0 10px 0 20px;
+		font-size: 12px;
+	}
+
+	.end_em {
+		margin-top: 5px;
+	}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	.list {
+		font-size: 11px;
+	}
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
