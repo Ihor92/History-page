@@ -62,30 +62,34 @@ img {
 	max-width: 400px;
 }
 
-.list span {
+.list time{
 	font-weight: bold;
 }
 
-p span {
+q {
 	font-size: 19px;
 	line-height: 2;
 	font-weight: lighter;
+	display: block;
+}
+ 
+q::before {
+  content: open-quote;
+}
+q::after {
+  content: close-quote;
+}
+q {
+  quotes: '«' '»';
 }
 
-.quote {
+.info, q {
 	margin: 0 auto;
-	/*padding-left: 77px;*/
 	max-width: 575px;
 }
-
-.quote>p {
-	margin-bottom: 0px;
-}
-
 .end {
 	font-size: 20px;
 	padding: 0 0 52px;
-	
 }
 
 .end_em {
